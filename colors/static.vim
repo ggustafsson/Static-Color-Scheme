@@ -1,4 +1,4 @@
-" Static version 0.1
+" Static version 0.2
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -10,34 +10,34 @@ syntax reset
 
 let colors_name = "static"
 
-" Vim interface
 highlight ColorColumn  ctermbg=234
 highlight Comment      ctermfg=144
-highlight ErrorMsg     ctermfg=15  ctermbg=124
+highlight DiffText     ctermfg=15 ctermbg=124
+highlight ErrorMsg     ctermfg=15 ctermbg=88
 highlight Folded       ctermfg=144 ctermbg=234
 highlight MatchParen   ctermfg=15
 highlight SpecialKey   ctermfg=240
-highlight SpellCap     ctermfg=15  ctermbg=25
-highlight Visual       ctermfg=15  ctermbg=240
+highlight SpellCap     ctermfg=15 ctermbg=25
+highlight Visual       ctermfg=15 ctermbg=240
 
 highlight CursorLineNr ctermfg=202
 highlight LineNr       ctermfg=240
 highlight NonText      ctermfg=240
 
-highlight DiffAdd      ctermfg=15  ctermbg=23
-highlight DiffChange   ctermfg=15  ctermbg=53
+highlight DiffAdd      ctermfg=15 ctermbg=23
+highlight DiffChange   ctermfg=15 ctermbg=53
 highlight DiffDelete   ctermfg=233 ctermbg=none
 
-highlight StatusLine   ctermfg=15  ctermbg=238 cterm=none
+highlight StatusLine   ctermfg=15 ctermbg=238 cterm=none
 highlight StatusLineNC ctermfg=247 ctermbg=238 cterm=none
 highlight VertSplit    ctermfg=238 ctermbg=238 cterm=none
 
 " Link to already fixed colors
-highlight clear DiffText
-highlight link  DiffText ErrorMsg
-
 highlight clear CursorColumn
 highlight link  CursorColumn StatusLine
+
+highlight clear Error
+highlight link  Error ErrorMsg
 
 highlight clear FoldColumn
 highlight link  FoldColumn Folded
@@ -46,7 +46,7 @@ highlight clear Pmenu
 highlight link  Pmenu DiffChange
 
 highlight clear PmenuSel
-highlight link  PmenuSel ErrorMsg
+highlight link  PmenuSel DiffText
 
 highlight clear Question
 highlight link  Question MoreMsg
@@ -67,7 +67,7 @@ highlight clear TabLineSel
 highlight link  TabLineSel StatusLine
 
 highlight clear WarningMsg
-highlight link  WarningMsg ErrorMsg
+highlight link  WarningMsg CursorLineNr
 
 highlight clear WildMenu
 highlight link  WildMenu Search
