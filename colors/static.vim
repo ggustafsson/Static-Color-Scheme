@@ -1,4 +1,4 @@
-" Static version 0.2
+" Static version 0.3
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -56,6 +56,9 @@ highlight link  SignColumn StatusLine
 
 highlight clear SpellBad
 highlight link  SpellBad ErrorMsg
+
+highlight clear SpellLocal
+highlight link  SpellLocal MatchParen
 
 highlight clear TabLine
 highlight link  TabLine StatusLineNC

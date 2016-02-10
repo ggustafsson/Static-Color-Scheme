@@ -41,6 +41,8 @@ readability and works good for code. One of the very few that doesn't suck is
 [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html). 16pt if you
 got the screen real estate to spare, otherwise 14pt. End of story.
 
+(Consolas might look much better than Inconsolata on Windows systems)
+
 Installation
 ------------
 Download the **static.vim** file and put it in **~/.vim/colors/** and run
