@@ -1,4 +1,4 @@
-" Static version 0.3
+" Static version 0.4
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -33,6 +33,9 @@ highlight StatusLineNC ctermfg=247 ctermbg=238 cterm=none
 highlight VertSplit    ctermfg=238 ctermbg=238 cterm=none
 
 " Link to already fixed colors
+highlight clear Conceal
+highlight link  Conceal Folded
+
 highlight clear CursorColumn
 highlight link  CursorColumn StatusLine
 
@@ -44,6 +47,9 @@ highlight link  FoldColumn Folded
 
 highlight clear Pmenu
 highlight link  Pmenu DiffChange
+
+highlight clear PmenuSbar
+highlight link  PmenuSbar StatusLine
 
 highlight clear PmenuSel
 highlight link  PmenuSel DiffText
@@ -58,7 +64,10 @@ highlight clear SpellBad
 highlight link  SpellBad ErrorMsg
 
 highlight clear SpellLocal
-highlight link  SpellLocal MatchParen
+highlight link  SpellLocal DiffAdd
+
+highlight clear SpellRare
+highlight link  SpellRare DiffChange
 
 highlight clear TabLine
 highlight link  TabLine StatusLineNC
