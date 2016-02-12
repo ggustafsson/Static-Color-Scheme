@@ -1,4 +1,4 @@
-" Static version 0.4
+" Static version 0.5
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -93,3 +93,11 @@ highlight clear Statement
 highlight clear Title
 highlight clear Type
 highlight clear Underlined
+
+augroup Static
+  autocmd!
+
+  " When editing markdown files Vim will still display syntax colors because it
+  " adds file type specific highlights after it has loaded Static.
+  autocmd FileType markdown setlocal syntax=
+augroup END

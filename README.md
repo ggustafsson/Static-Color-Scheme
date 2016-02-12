@@ -52,14 +52,3 @@ if you want the setting to stick).
 Static works great with [Pathogen](https://github.com/tpope/vim-pathogen) so if
 you are already using it you then you can put this whole Git repository under
 **~/.vim/bundle** for a hassle free installation.
-
-Quirks
-------
-When editing markdown files Vim will still display syntax colors because it
-adds file type specific highlights after it has loaded Static. To fix this you
-can add this to **vimrc**:
-
-    autocmd FileType markdown setlocal syntax=
-
-I've only encountered this problem with Markdown so far but I assume the same
-thing can happen again with other file types.
