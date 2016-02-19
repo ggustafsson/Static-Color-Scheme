@@ -1,4 +1,4 @@
-" Static version 0.5
+" Static version 0.6
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -28,6 +28,10 @@ highlight DiffAdd      ctermfg=15 ctermbg=23
 highlight DiffChange   ctermfg=15 ctermbg=53
 highlight DiffDelete   ctermfg=233 ctermbg=none
 
+highlight diffAdded    ctermfg=2
+highlight diffLine     ctermfg=6
+highlight diffRemoved  ctermfg=1
+
 highlight StatusLine   ctermfg=15 ctermbg=238 cterm=none
 highlight StatusLineNC ctermfg=247 ctermbg=238 cterm=none
 highlight VertSplit    ctermfg=238 ctermbg=238 cterm=none
@@ -44,6 +48,18 @@ highlight link  Error ErrorMsg
 
 highlight clear FoldColumn
 highlight link  FoldColumn Folded
+
+highlight clear gitcommitBranch
+highlight link  gitcommitBranch Comment
+
+highlight clear gitcommitFile
+highlight link  gitcommitFile Comment
+
+highlight clear gitcommitHeader
+highlight link  gitcommitHeader Comment
+
+highlight clear gitcommitType
+highlight link  gitcommitType Comment
 
 highlight clear Pmenu
 highlight link  Pmenu DiffChange
@@ -78,6 +94,9 @@ highlight link  TabLineFill TabLineSel
 highlight clear TabLineSel
 highlight link  TabLineSel StatusLine
 
+highlight clear Todo
+highlight link  Todo Comment
+
 highlight clear WarningMsg
 highlight link  WarningMsg CursorLineNr
 
@@ -100,4 +119,7 @@ augroup Static
   " When editing markdown files Vim will still display syntax colors because it
   " adds file type specific highlights after it has loaded Static.
   autocmd FileType markdown setlocal syntax=
+
+  " Help text is easier to read with syntax off. Adds brackets, asterix's etc.
+  autocmd FileType help setlocal syntax=
 augroup END
