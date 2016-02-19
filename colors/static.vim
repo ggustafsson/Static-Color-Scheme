@@ -1,4 +1,4 @@
-" Static version 0.6
+" Static version 0.7
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -43,9 +43,6 @@ highlight link  Conceal Folded
 highlight clear CursorColumn
 highlight link  CursorColumn StatusLine
 
-highlight clear Error
-highlight link  Error ErrorMsg
-
 highlight clear FoldColumn
 highlight link  FoldColumn Folded
 
@@ -85,6 +82,9 @@ highlight link  SpellLocal DiffAdd
 highlight clear SpellRare
 highlight link  SpellRare DiffChange
 
+highlight clear SyntasticErrorSign
+highlight link  SyntasticErrorSign ErrorMsg
+
 highlight clear TabLine
 highlight link  TabLine StatusLineNC
 
@@ -105,6 +105,7 @@ highlight link  WildMenu Search
 
 " Clear syntax coloring
 highlight clear Constant
+highlight clear Error
 highlight clear Identifier
 highlight clear PreProc
 highlight clear Special
