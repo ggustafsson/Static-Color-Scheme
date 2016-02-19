@@ -1,4 +1,4 @@
-" Static version 0.7
+" Static version 0.8
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -71,7 +71,7 @@ highlight clear Question
 highlight link  Question MoreMsg
 
 highlight clear SignColumn
-highlight link  SignColumn StatusLine
+highlight link  SignColumn Folded
 
 highlight clear SpellBad
 highlight link  SpellBad ErrorMsg
