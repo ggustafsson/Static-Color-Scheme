@@ -28,6 +28,7 @@ highlight DiffAdd      ctermfg=15 ctermbg=23
 highlight DiffChange   ctermfg=15 ctermbg=53
 highlight DiffDelete   ctermfg=233 ctermbg=none
 
+" Mimic git diff output
 highlight diffAdded    ctermfg=2
 highlight diffLine     ctermfg=6
 highlight diffRemoved  ctermfg=1
