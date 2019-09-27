@@ -1,4 +1,4 @@
-" Static version 0.8
+" Static version 0.8.1
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -20,7 +20,7 @@ highlight SpecialKey   ctermfg=240
 highlight SpellCap     ctermfg=15 ctermbg=25
 highlight Visual       ctermfg=15 ctermbg=240
 
-highlight CursorLineNr ctermfg=202
+highlight CursorLineNr ctermfg=202 cterm=bold
 highlight LineNr       ctermfg=240
 highlight NonText      ctermfg=240
 
