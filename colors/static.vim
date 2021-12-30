@@ -1,4 +1,4 @@
-" Static version 0.8.1
+" Static version 0.8.2
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
@@ -15,7 +15,6 @@ highlight Comment      ctermfg=144
 highlight DiffText     ctermfg=15 ctermbg=124
 highlight ErrorMsg     ctermfg=15 ctermbg=88
 highlight Folded       ctermfg=144 ctermbg=234
-highlight MatchParen   ctermfg=15
 highlight SpecialKey   ctermfg=240
 highlight SpellCap     ctermfg=15 ctermbg=25
 highlight Visual       ctermfg=15 ctermbg=240
@@ -108,6 +107,7 @@ highlight link  WildMenu Search
 highlight clear Constant
 highlight clear Error
 highlight clear Identifier
+highlight clear MatchParen
 highlight clear PreProc
 highlight clear Special
 highlight clear Statement
