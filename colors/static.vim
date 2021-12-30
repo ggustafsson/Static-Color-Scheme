@@ -27,7 +27,7 @@ highlight DiffAdd      ctermfg=15 ctermbg=23
 highlight DiffChange   ctermfg=15 ctermbg=53
 highlight DiffDelete   ctermfg=233 ctermbg=none
 
-" Mimic git diff output
+" Mimic git diff output.
 highlight diffAdded    ctermfg=2
 highlight diffLine     ctermfg=6
 highlight diffRemoved  ctermfg=1
@@ -36,7 +36,7 @@ highlight StatusLine   ctermfg=15 ctermbg=238 cterm=none
 highlight StatusLineNC ctermfg=247 ctermbg=238 cterm=none
 highlight VertSplit    ctermfg=238 ctermbg=238 cterm=none
 
-" Link to already fixed colors
+" Link to already fixed colors.
 highlight clear Conceal
 highlight link  Conceal Folded
 
@@ -103,7 +103,7 @@ highlight link  WarningMsg CursorLineNr
 highlight clear WildMenu
 highlight link  WildMenu Search
 
-" Clear syntax coloring
+" Clear syntax coloring.
 highlight clear Constant
 highlight clear Error
 highlight clear Identifier
