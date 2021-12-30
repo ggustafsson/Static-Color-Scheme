@@ -17,5 +17,5 @@ Vim 8 package manager method:
 Good old manual method:
 
 Download the **static.vim** file and put it in **~/.vim/colors/** and run
-**:colorscheme static** within Vim (add line to **~/.vimrc** or **~/.gvimrc** if
-you want the setting to stick).
+**:colorscheme static** within Vim (add line to **~/.vimrc** or **~/.gvimrc**
+if you want the setting to stick).
