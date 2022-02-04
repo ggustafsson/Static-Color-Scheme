@@ -28,12 +28,13 @@ highlight StatusLine   ctermfg=15  ctermbg=238 cterm=none
 highlight StatusLineNC ctermfg=247 ctermbg=238 cterm=none
 highlight VertSplit    ctermfg=238 ctermbg=238 cterm=none
 
+" vimdiff mode.
 highlight DiffAdd    ctermfg=15  ctermbg=23
 highlight DiffChange ctermfg=15  ctermbg=53
 highlight DiffDelete ctermfg=233 ctermbg=none
 highlight DiffText   ctermfg=15  ctermbg=124
 
-" Mimic git diff output.
+" diff filetype. Mimic git diff output.
 highlight diffAdded   ctermfg=2
 highlight diffLine    ctermfg=6
 highlight diffRemoved ctermfg=1
@@ -47,6 +48,9 @@ highlight link  CursorColumn StatusLine
 
 highlight clear FoldColumn
 highlight link  FoldColumn Folded
+
+highlight clear qfError
+highlight link  qfError qfLineNr
 
 highlight clear Question
 highlight link  Question MoreMsg
