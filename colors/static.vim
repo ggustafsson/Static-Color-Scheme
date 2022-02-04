@@ -1,4 +1,4 @@
-" Static version 0.9
+" Static version 0.9.1
 "
 " The best color(less) scheme for Vim in the world! TM.
 "
