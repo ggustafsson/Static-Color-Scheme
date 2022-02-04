@@ -3,9 +3,9 @@ Static Color(less) Scheme
 
 **"The best color(less) scheme for Vim in the world!"** ™
 
-![Preview 1](https://github.com/ggustafsson/Static-Color-Scheme/raw/master/Extras/Preview1.png)
+![Preview 1](https://github.com/ggustafsson/Project-Assets/raw/master/Static-Color-Scheme/Screenshot1.png)
 
-![Preview 2](https://github.com/ggustafsson/Static-Color-Scheme/raw/master/Extras/Preview2.png)
+![Preview 2](https://github.com/ggustafsson/Project-Assets/raw/master/Static-Color-Scheme/Screenshot2.png)
 
 Installation
 ------------
